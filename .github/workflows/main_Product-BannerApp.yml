@@ -7,10 +7,15 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
+    paths-ignore:
+      - '**.md'
+  pull_request:
+    paths-ignore:
+      - '**.md      
+
 
 env:
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: 'https://github.com/SCHER26/BannerApp' # set this to the path to your web app project, defaults to the repository root
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: './BannerApp' # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '10.x' # set this to the node version to use (supports 8.x, 10.x, 12.x)
 
 jobs:
