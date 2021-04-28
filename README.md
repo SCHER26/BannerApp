@@ -1,11 +1,4 @@
 
-Project Tech Installation:
-****************************
-Install the Azure Functions Core Tools
-Visual Studio Code debugging
-npm install serverless -g
-
-serverless install -u
 
 
 Azure Setup from Cli
