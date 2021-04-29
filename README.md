@@ -1,6 +1,6 @@
 Image & Rest API 
 **********************************
-Created in NodeJs <BR>
+Rest Api's are created in NodeJs <BR>
 Hosted in Azure using Azure Funct & exposed via APIM to the Mobile<br>
 https://bannerres.azure-api.net/getproduct
   
