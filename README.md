@@ -1,3 +1,5 @@
+Rest API <br>
+https://bannerres.azure-api.net/getproduct
 
 Project Tech Installation:
 ****************************
@@ -29,3 +31,6 @@ Note : Location Name,Resource Group & Storage Acct should be same as above
 Deploy our Function App Code
 
 az functionapp deployment source config-zip -g <resource_group> -n BannerApp --src <zip_file_path : which is under the .serverless path once we do npm install of the project>
+
+
+
