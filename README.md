@@ -1,4 +1,10 @@
 
+Project Tech Installation:
+****************************
+NodeJS Install npm install <br>
+Serverless install -u
+Install the Azure Functions Core Tools <br>
+Visual Studio Code debugging <br>
 
 
 Azure Setup from Cli
@@ -23,4 +29,3 @@ Note : Location Name,Resource Group & Storage Acct should be same as above
 Deploy our Function App Code
 
 az functionapp deployment source config-zip -g <resource_group> -n BannerApp --src <zip_file_path : which is under the .serverless path once we do npm install of the project>
-
