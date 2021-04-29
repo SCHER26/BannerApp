@@ -1,5 +1,12 @@
-Rest API <br>
+Image & Rest API 
+**********************************
+Created in NodeJs <BR>
+Hosted in Azure using Azure Funct & exposed via APIM to the Mobile<br>
 https://bannerres.azure-api.net/getproduct
+  
+Image is created in Azure Storage Account using BLOB
+
+Exposed the the image link via APIM.
 
 Project Tech Installation:
 ****************************
